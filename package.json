@@ -1,0 +1,17 @@
+{
+  "name": "roadmap-scribe",
+  "version": "1.0.0",
+  "description": "AI-powered meeting scribe — transcript to roadmap + Jira tickets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {},
+  "license": "UNLICENSED",
+  "private": true
+}
